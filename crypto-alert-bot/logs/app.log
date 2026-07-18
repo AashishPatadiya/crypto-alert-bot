@@ -1,0 +1,205 @@
+2026-07-03 21:02:41 [INFO] __main__: Configuration loaded successfully
+2026-07-03 21:02:42 [INFO] services.telegram_sender: Message sent to channel -1003236627502
+2026-07-03 21:02:42 [INFO] scheduler: Scheduled job: price_update (every 5 minutes)
+2026-07-03 21:02:42 [INFO] scheduler: Scheduled job: trending_coins (every 10 minutes)
+2026-07-03 21:02:42 [INFO] scheduler: Scheduled job: gainers_losers (every 15 minutes)
+2026-07-03 21:02:42 [INFO] scheduler: Scheduled job: crypto_news (every 20 minutes)
+2026-07-03 21:02:42 [INFO] scheduler: Scheduled job: daily_summary (every 360 minutes)
+2026-07-03 21:02:42 [INFO] scheduler: Scheduled job: fear_greed (daily at 08:00)
+2026-07-03 21:02:42 [INFO] scheduler: Scheduler started
+2026-07-03 21:02:42 [INFO] __main__: All scheduled jobs configured and started
+2026-07-03 21:02:42 [INFO] __main__: Bot running successfully
+2026-07-03 21:06:14 [INFO] __main__: Configuration loaded successfully
+2026-07-03 21:06:19 [ERROR] services.telegram_sender: Failed to send message: Timed out
+2026-07-03 21:06:19 [INFO] scheduler: Scheduled job: price_update (every 5 minutes)
+2026-07-03 21:06:19 [INFO] scheduler: Scheduled job: trending_coins (every 10 minutes)
+2026-07-03 21:06:19 [INFO] scheduler: Scheduled job: gainers_losers (every 15 minutes)
+2026-07-03 21:06:19 [INFO] scheduler: Scheduled job: crypto_news (every 20 minutes)
+2026-07-03 21:06:19 [INFO] scheduler: Scheduled job: daily_summary (every 360 minutes)
+2026-07-03 21:06:19 [INFO] scheduler: Scheduled job: fear_greed (daily at 08:00)
+2026-07-03 21:06:19 [INFO] scheduler: Scheduler started
+2026-07-03 21:06:19 [INFO] __main__: All scheduled jobs configured and started
+2026-07-03 21:06:19 [INFO] __main__: Bot running successfully
+2026-07-03 21:07:42 [INFO] __main__: Executing: price update
+2026-07-03 21:07:44 [INFO] services.telegram_sender: Message sent to channel -1003236627502
+2026-07-03 21:09:55 [INFO] __main__: Configuration loaded successfully
+2026-07-03 21:09:56 [INFO] services.telegram_sender: Message part 1/1 sent to channel -1003236627502
+2026-07-03 21:09:56 [INFO] scheduler: Scheduled job: price_update (every 5 minutes)
+2026-07-03 21:09:56 [INFO] scheduler: Scheduled job: trending_coins (every 10 minutes)
+2026-07-03 21:09:56 [INFO] scheduler: Scheduled job: gainers_losers (every 15 minutes)
+2026-07-03 21:09:56 [INFO] scheduler: Scheduled job: crypto_news (every 20 minutes)
+2026-07-03 21:09:56 [INFO] scheduler: Scheduled job: daily_summary (every 360 minutes)
+2026-07-03 21:09:56 [INFO] scheduler: Scheduled job: fear_greed (daily at 08:00)
+2026-07-03 21:09:56 [INFO] scheduler: Scheduler started
+2026-07-03 21:09:56 [INFO] __main__: All scheduled jobs configured and started
+2026-07-03 21:09:56 [INFO] __main__: Bot running successfully
+2026-07-03 21:11:19 [INFO] __main__: Executing: price update
+2026-07-03 21:11:21 [INFO] services.telegram_sender: Message part 1/1 sent to channel -1003236627502
+2026-07-03 21:12:42 [INFO] __main__: Executing: trending coins
+2026-07-03 21:12:42 [INFO] __main__: Executing: price update
+2026-07-03 21:12:43 [ERROR] services.telegram_sender: Failed to send message: Unknown error in HTTP implementation: RuntimeError('Event loop is closed')
+2026-07-03 21:12:44 [INFO] services.coingecko: Fetched 10 trending coins
+2026-07-03 21:12:45 [ERROR] services.telegram_sender: Failed to send message: Pool timeout: All connections in the connection pool are occupied. Request was *not* sent to Telegram. Consider adjusting the connection pool size or the pool timeout.
+2026-07-03 21:14:56 [INFO] __main__: Executing: price update
+2026-07-03 21:14:59 [INFO] services.telegram_sender: Message part 1/1 sent to channel -1003236627502
+2026-07-03 21:16:19 [INFO] __main__: Executing: trending coins
+2026-07-03 21:16:19 [INFO] __main__: Executing: price update
+2026-07-03 21:16:20 [INFO] services.coingecko: Fetched 10 trending coins
+2026-07-03 21:16:20 [ERROR] services.telegram_sender: Failed to send message: Unknown error in HTTP implementation: RuntimeError('Event loop is closed')
+2026-07-03 21:16:21 [ERROR] services.telegram_sender: Failed to send message: Pool timeout: All connections in the connection pool are occupied. Request was *not* sent to Telegram. Consider adjusting the connection pool size or the pool timeout.
+2026-07-03 21:17:42 [INFO] __main__: Executing: price update
+2026-07-03 21:17:42 [INFO] __main__: Executing: gainers and losers
+2026-07-03 21:17:42 [ERROR] services.coingecko: Failed to fetch market data: 404 Client Error: Not Found for url: https://api.coingecko.com/api/v3/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=False
+2026-07-03 21:17:43 [ERROR] services.telegram_sender: Failed to send message: Pool timeout: All connections in the connection pool are occupied. Request was *not* sent to Telegram. Consider adjusting the connection pool size or the pool timeout.
+2026-07-03 21:17:44 [ERROR] services.telegram_sender: Failed to send message: Pool timeout: All connections in the connection pool are occupied. Request was *not* sent to Telegram. Consider adjusting the connection pool size or the pool timeout.
+2026-07-03 21:21:19 [INFO] __main__: Configuration loaded successfully
+2026-07-03 21:21:20 [INFO] services.telegram_sender: Message part 1/1 sent to channel -1003236627502
+2026-07-03 21:21:20 [INFO] scheduler: Scheduled job: price_update (every 5 minutes)
+2026-07-03 21:21:20 [INFO] scheduler: Scheduled job: trending_coins (every 10 minutes)
+2026-07-03 21:21:20 [INFO] scheduler: Scheduled job: gainers_losers (every 15 minutes)
+2026-07-03 21:21:20 [INFO] scheduler: Scheduled job: crypto_news (every 20 minutes)
+2026-07-03 21:21:20 [INFO] scheduler: Scheduled job: daily_summary (every 360 minutes)
+2026-07-03 21:21:20 [INFO] scheduler: Scheduled job: fear_greed (daily at 08:00)
+2026-07-03 21:21:20 [INFO] scheduler: Scheduler started
+2026-07-03 21:21:20 [INFO] __main__: All scheduled jobs configured and started
+2026-07-03 21:21:20 [INFO] __main__: Bot running successfully
+2026-07-03 21:21:22 [INFO] __main__: Shutdown signal received
+2026-07-03 21:21:22 [INFO] scheduler: Scheduler stopped
+2026-07-03 21:21:22 [INFO] __main__: Bot shutdown complete
+2026-07-03 21:31:05 [INFO] bot: Configuration loaded successfully
+2026-07-03 21:31:07 [INFO] services.telegram_sender: Message part 1/1 sent to channel -1003236627502
+2026-07-03 21:31:07 [INFO] scheduler: Scheduled job: price_update (every 5 minutes)
+2026-07-03 21:31:07 [INFO] scheduler: Scheduled job: trending_coins (every 10 minutes)
+2026-07-03 21:31:07 [INFO] scheduler: Scheduled job: gainers_losers (every 15 minutes)
+2026-07-03 21:31:07 [INFO] scheduler: Scheduled job: crypto_news (every 20 minutes)
+2026-07-03 21:31:07 [INFO] scheduler: Scheduled job: daily_summary (every 360 minutes)
+2026-07-03 21:31:07 [INFO] scheduler: Scheduled job: fear_greed (daily at 08:00)
+2026-07-03 21:31:07 [INFO] scheduler: Scheduler started
+2026-07-03 21:31:07 [INFO] bot: All scheduled jobs configured and started
+2026-07-03 21:31:07 [INFO] bot: Bot running successfully
+2026-07-03 21:36:07 [INFO] bot: Executing: price update
+2026-07-03 21:36:10 [INFO] services.telegram_sender: Message part 1/1 sent to channel -1003236627502
+2026-07-07 18:13:33 [WARNING] services.telegram_sender: Error closing Telegram bot: Not Found
+2026-07-07 18:26:06 [INFO] __main__: Configuration loaded successfully
+2026-07-07 18:26:08 [INFO] services.telegram_sender: Message part 1/1 sent to channel -1003236627502
+2026-07-07 18:26:08 [INFO] scheduler: Scheduled job: price_update (every 5 minutes)
+2026-07-07 18:26:08 [INFO] scheduler: Scheduled job: trending_coins (every 10 minutes)
+2026-07-07 18:26:08 [INFO] scheduler: Scheduled job: gainers_losers (every 15 minutes)
+2026-07-07 18:26:08 [INFO] scheduler: Scheduled job: crypto_news (every 20 minutes)
+2026-07-07 18:26:08 [INFO] scheduler: Scheduled job: daily_summary (every 360 minutes)
+2026-07-07 18:26:08 [INFO] scheduler: Scheduled job: fear_greed (daily at 08:00)
+2026-07-07 18:26:08 [INFO] scheduler: Scheduler started
+2026-07-07 18:26:08 [INFO] __main__: All scheduled jobs configured and started
+2026-07-07 18:26:08 [INFO] __main__: Bot running successfully
+2026-07-07 18:26:38 [INFO] __main__: Shutdown signal received
+2026-07-07 18:26:38 [INFO] scheduler: Scheduler stopped
+2026-07-07 18:26:39 [INFO] __main__: Bot shutdown complete
+2026-07-07 18:30:42 [INFO] __main__: Configuration loaded successfully
+2026-07-07 18:30:44 [INFO] services.telegram_sender: Message part 1/1 sent to channel -1003236627502
+2026-07-07 18:30:44 [INFO] scheduler: Scheduled job: price_update (every 5 minutes)
+2026-07-07 18:30:44 [INFO] scheduler: Scheduled job: trending_coins (every 10 minutes)
+2026-07-07 18:30:44 [INFO] scheduler: Scheduled job: gainers_losers (every 15 minutes)
+2026-07-07 18:30:44 [INFO] scheduler: Scheduled job: crypto_news (every 20 minutes)
+2026-07-07 18:30:44 [INFO] scheduler: Scheduled job: daily_summary (every 360 minutes)
+2026-07-07 18:30:44 [INFO] scheduler: Scheduled job: fear_greed (daily at 08:00)
+2026-07-07 18:30:44 [INFO] scheduler: Scheduler started
+2026-07-07 18:30:44 [INFO] __main__: All scheduled jobs configured and started
+2026-07-07 18:30:44 [INFO] __main__: Bot running successfully
+2026-07-07 18:30:45 [INFO] __main__: Shutdown signal received
+2026-07-07 18:30:45 [INFO] scheduler: Scheduler stopped
+2026-07-07 18:30:45 [WARNING] services.telegram_sender: Error closing Telegram bot: Flood control exceeded. Retry in 597 seconds
+2026-07-07 18:30:45 [INFO] __main__: Bot shutdown complete
+2026-07-07 18:32:57 [INFO] __main__: Configuration loaded successfully
+2026-07-07 18:32:58 [INFO] services.telegram_sender: Message part 1/1 sent to channel -1003236627502
+2026-07-07 18:32:58 [INFO] scheduler: Scheduled job: price_update (every 5 minutes)
+2026-07-07 18:32:58 [INFO] scheduler: Scheduled job: trending_coins (every 10 minutes)
+2026-07-07 18:32:58 [INFO] scheduler: Scheduled job: gainers_losers (every 15 minutes)
+2026-07-07 18:32:58 [INFO] scheduler: Scheduled job: crypto_news (every 20 minutes)
+2026-07-07 18:32:58 [INFO] scheduler: Scheduled job: daily_summary (every 360 minutes)
+2026-07-07 18:32:58 [INFO] scheduler: Scheduled job: fear_greed (daily at 08:00)
+2026-07-07 18:32:58 [INFO] scheduler: Scheduler started
+2026-07-07 18:32:58 [INFO] __main__: All scheduled jobs configured and started
+2026-07-07 18:32:58 [INFO] __main__: Bot running successfully
+2026-07-07 18:34:41 [WARNING] services.telegram_sender: Error closing Telegram bot: Not Found
+2026-07-07 18:35:04 [WARNING] services.telegram_sender: Error closing Telegram bot: Not Found
+2026-07-07 18:36:27 [INFO] __main__: Shutdown signal received
+2026-07-07 18:36:27 [INFO] scheduler: Scheduler stopped
+2026-07-07 18:36:28 [WARNING] services.telegram_sender: Error closing Telegram bot: Flood control exceeded. Retry in 254 seconds
+2026-07-07 18:36:28 [INFO] __main__: Bot shutdown complete
+2026-07-07 18:36:41 [WARNING] services.telegram_sender: Error closing Telegram bot: Timed out
+2026-07-07 18:36:58 [WARNING] services.telegram_sender: Error closing Telegram bot: Not Found
+2026-07-07 18:37:11 [INFO] __main__: Configuration loaded successfully
+2026-07-07 18:37:12 [INFO] services.telegram_sender: Message part 1/1 sent to channel -1003236627502
+2026-07-07 18:37:12 [INFO] scheduler: Scheduled job: price_update (every 5 minutes)
+2026-07-07 18:37:12 [INFO] scheduler: Scheduled job: trending_coins (every 10 minutes)
+2026-07-07 18:37:12 [INFO] scheduler: Scheduled job: gainers_losers (every 15 minutes)
+2026-07-07 18:37:12 [INFO] scheduler: Scheduled job: crypto_news (every 20 minutes)
+2026-07-07 18:37:12 [INFO] scheduler: Scheduled job: daily_summary (every 360 minutes)
+2026-07-07 18:37:12 [INFO] scheduler: Scheduled job: fear_greed (daily at 08:00)
+2026-07-07 18:37:12 [INFO] scheduler: Scheduler started
+2026-07-07 18:37:12 [INFO] __main__: All scheduled jobs configured and started
+2026-07-07 18:37:12 [INFO] __main__: Bot running successfully
+2026-07-07 18:37:14 [INFO] __main__: Shutdown signal received
+2026-07-07 18:37:14 [INFO] scheduler: Scheduler stopped
+2026-07-07 18:37:14 [WARNING] services.telegram_sender: Error closing Telegram bot: Flood control exceeded. Retry in 208 seconds
+2026-07-07 18:37:14 [INFO] __main__: Bot shutdown complete
+2026-07-07 18:41:46 [INFO] __main__: Configuration loaded successfully
+2026-07-07 18:41:48 [INFO] services.telegram_sender: Message part 1/1 sent to channel -1003236627502
+2026-07-07 18:41:48 [INFO] scheduler: Scheduled job: price_update (every 5 minutes)
+2026-07-07 18:41:48 [INFO] scheduler: Scheduled job: trending_coins (every 10 minutes)
+2026-07-07 18:41:48 [INFO] scheduler: Scheduled job: gainers_losers (every 15 minutes)
+2026-07-07 18:41:48 [INFO] scheduler: Scheduled job: crypto_news (every 20 minutes)
+2026-07-07 18:41:48 [INFO] scheduler: Scheduled job: daily_summary (every 360 minutes)
+2026-07-07 18:41:48 [INFO] scheduler: Scheduled job: fear_greed (daily at 08:00)
+2026-07-07 18:41:48 [INFO] scheduler: Scheduler started
+2026-07-07 18:41:48 [INFO] __main__: All scheduled jobs configured and started
+2026-07-07 18:41:48 [INFO] __main__: Bot running successfully
+2026-07-07 18:43:29 [INFO] __main__: Shutdown signal received
+2026-07-07 18:43:29 [INFO] scheduler: Scheduler stopped
+2026-07-07 18:43:30 [INFO] __main__: Bot shutdown complete
+2026-07-18 14:47:01 [INFO] __main__: Configuration loaded successfully
+2026-07-18 14:47:01 [ERROR] services.telegram_sender: Failed to send message: httpx.RemoteProtocolError: Server disconnected without sending a response.
+2026-07-18 14:47:01 [INFO] scheduler: Scheduled job: price_update (every 5 minutes)
+2026-07-18 14:47:01 [INFO] scheduler: Scheduled job: trending_coins (every 10 minutes)
+2026-07-18 14:47:01 [INFO] scheduler: Scheduled job: gainers_losers (every 15 minutes)
+2026-07-18 14:47:01 [INFO] scheduler: Scheduled job: crypto_news (every 20 minutes)
+2026-07-18 14:47:01 [INFO] scheduler: Scheduled job: daily_summary (every 360 minutes)
+2026-07-18 14:47:01 [INFO] scheduler: Scheduled job: fear_greed (daily at 08:00)
+2026-07-18 14:47:01 [INFO] scheduler: Scheduler started
+2026-07-18 14:47:01 [INFO] __main__: All scheduled jobs configured and started
+2026-07-18 14:47:01 [INFO] __main__: Bot running successfully
+2026-07-18 14:47:30 [INFO] __main__: Shutdown signal received
+2026-07-18 14:47:30 [INFO] scheduler: Scheduler stopped
+2026-07-18 14:47:33 [WARNING] services.telegram_sender: Error closing Telegram bot: The bot has already been closed
+2026-07-18 14:47:33 [INFO] __main__: Bot shutdown complete
+2026-07-18 14:47:39 [INFO] __main__: Configuration loaded successfully
+2026-07-18 14:47:41 [INFO] services.telegram_sender: Message part 1/1 sent to channel -1003236627502
+2026-07-18 14:47:41 [INFO] scheduler: Scheduled job: price_update (every 5 minutes)
+2026-07-18 14:47:41 [INFO] scheduler: Scheduled job: trending_coins (every 10 minutes)
+2026-07-18 14:47:41 [INFO] scheduler: Scheduled job: gainers_losers (every 15 minutes)
+2026-07-18 14:47:41 [INFO] scheduler: Scheduled job: crypto_news (every 20 minutes)
+2026-07-18 14:47:41 [INFO] scheduler: Scheduled job: daily_summary (every 360 minutes)
+2026-07-18 14:47:41 [INFO] scheduler: Scheduled job: fear_greed (daily at 08:00)
+2026-07-18 14:47:41 [INFO] scheduler: Scheduler started
+2026-07-18 14:47:41 [INFO] __main__: All scheduled jobs configured and started
+2026-07-18 14:47:41 [INFO] __main__: Bot running successfully
+2026-07-18 14:47:54 [INFO] __main__: Shutdown signal received
+2026-07-18 14:47:54 [INFO] scheduler: Scheduler stopped
+2026-07-18 14:47:55 [WARNING] services.telegram_sender: Error closing Telegram bot: Flood control exceeded. Retry in 584 seconds
+2026-07-18 14:47:55 [INFO] __main__: Bot shutdown complete
+2026-07-18 14:53:42 [INFO] __main__: Configuration loaded successfully
+2026-07-18 14:54:05 [INFO] __main__: Configuration loaded successfully
+2026-07-18 14:54:07 [INFO] services.telegram_sender: Message part 1/1 sent to channel -1003236627502
+2026-07-18 14:54:07 [INFO] scheduler: Scheduled job: price_update (every 5 minutes)
+2026-07-18 14:54:07 [INFO] scheduler: Scheduled job: trending_coins (every 10 minutes)
+2026-07-18 14:54:07 [INFO] scheduler: Scheduled job: gainers_losers (every 15 minutes)
+2026-07-18 14:54:07 [INFO] scheduler: Scheduled job: crypto_news (every 20 minutes)
+2026-07-18 14:54:07 [INFO] scheduler: Scheduled job: daily_summary (every 360 minutes)
+2026-07-18 14:54:07 [INFO] scheduler: Scheduled job: fear_greed (daily at 08:00)
+2026-07-18 14:54:07 [INFO] scheduler: Scheduler started
+2026-07-18 14:54:07 [INFO] __main__: All scheduled jobs configured and started
+2026-07-18 14:54:07 [INFO] __main__: Bot running successfully
+2026-07-18 14:54:27 [INFO] __main__: Shutdown signal received
+2026-07-18 14:54:27 [INFO] scheduler: Scheduler stopped
+2026-07-18 14:54:28 [WARNING] services.telegram_sender: Error closing Telegram bot: Flood control exceeded. Retry in 192 seconds
+2026-07-18 14:54:28 [INFO] __main__: Bot shutdown complete
